@@ -14,7 +14,7 @@ class VideoModel {
     let clientArray:[String] = ["", "Banat Boys"]
     
     let descriptionArray:[String] = [" ",
-                                     "Software Used: Adobe Premiere \nPre-production and Post Production for Banat Boy's music video Gera \n2014"]
+                                     "Software Used: Adobe Premiere \nPre-production and Post Production for Banat Boy's music video Gera - 2014"]
     
     init() {
         print("Object Created")
