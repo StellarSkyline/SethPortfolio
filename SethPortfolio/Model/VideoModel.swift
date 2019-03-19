@@ -9,12 +9,13 @@
 import Foundation
 
 class VideoModel {
-    let urlArray:[String] = [" ", "vXH2cJDT7ng"]
+    let urlArray:[String] = [" ", "vXH2cJDT7ng", "10Og-9Zx5EQ"]
     
-    let clientArray:[String] = ["", "Banat Boys"]
+    let clientArray:[String] = ["", "Banat Boys", "Knowledge Channel"]
     
     let descriptionArray:[String] = [" ",
-                                     "Software Used: Adobe Premiere \nPre-production and Post Production for Banat Boy's music video Gera"]
+                                     "Software Used: Adobe Premiere \nPre-production and Post Production for Banat Boy's music video Gera",
+                                     "Sofrware Used: Adobe Flash | Adobe Premiere \nAnimation and sound design for Knowledge Channel show K-High"]
     
     init() {
         print("Object Created")
@@ -24,4 +25,11 @@ class VideoModel {
     
     
 }
+
+
+/*
+ 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/10Og-9Zx5EQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+ */
 

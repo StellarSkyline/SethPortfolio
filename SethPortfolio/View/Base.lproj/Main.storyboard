@@ -110,6 +110,14 @@
                                     <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="LLq-b0-JeP"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X57-xr-5Ih">
+                                <rect key="frame" x="148" y="274" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="btnVideo2"/>
+                                <connections>
+                                    <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="cbH-ol-yXl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Sqg-qe-56e"/>
@@ -482,6 +490,7 @@
         <image name="btnArt9" width="250" height="250"/>
         <image name="btnGraphicPage" width="125" height="125"/>
         <image name="btnVideo1" width="250" height="250"/>
+        <image name="btnVideo2" width="250" height="250"/>
         <image name="btnVideoPage" width="125" height="125"/>
         <image name="imgBG" width="276" height="597"/>
         <image name="imgMain" width="224" height="197.5"/>
