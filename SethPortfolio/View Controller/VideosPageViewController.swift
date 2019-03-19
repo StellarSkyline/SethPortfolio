@@ -6,6 +6,8 @@
 //  Copyright © 2019 Seth Osric Torralba. All rights reserved.
 //
 
+//Finish videos page
+
 import UIKit
 
 class VideosPageViewController: UIViewController {
