@@ -103,7 +103,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ef2-TN-dTr">
-                                <rect key="frame" x="20" y="274" width="100" height="100"/>
+                                <rect key="frame" x="93" y="274" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="btnVideo1"/>
                                 <connections>
@@ -111,11 +111,51 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X57-xr-5Ih">
-                                <rect key="frame" x="148" y="274" width="100" height="100"/>
+                                <rect key="frame" x="221" y="274" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="btnVideo2"/>
                                 <connections>
                                     <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="cbH-ol-yXl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SX-IE-mGP">
+                                <rect key="frame" x="93" y="411" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="btnVideo3"/>
+                                <connections>
+                                    <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="tNN-He-e2w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxZ-vv-eDf">
+                                <rect key="frame" x="221" y="411" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="btnVideo4"/>
+                                <connections>
+                                    <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="5rv-Fa-fuj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYe-Sv-mIh">
+                                <rect key="frame" x="20" y="535" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="btnVideo5"/>
+                                <connections>
+                                    <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="V00-9G-RwB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7pW-ee-YHj">
+                                <rect key="frame" x="157" y="535" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="btnVideo6"/>
+                                <connections>
+                                    <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="VaN-1e-Fqp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="36n-mQ-rW1">
+                                <rect key="frame" x="294" y="535" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="btnVideo7"/>
+                                <connections>
+                                    <action selector="btnVideo:" destination="dQm-cb-gnc" eventType="touchUpInside" id="xFp-2H-rX7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -491,6 +531,11 @@
         <image name="btnGraphicPage" width="125" height="125"/>
         <image name="btnVideo1" width="250" height="250"/>
         <image name="btnVideo2" width="250" height="250"/>
+        <image name="btnVideo3" width="250" height="250"/>
+        <image name="btnVideo4" width="250" height="250"/>
+        <image name="btnVideo5" width="250" height="250"/>
+        <image name="btnVideo6" width="250" height="250"/>
+        <image name="btnVideo7" width="250" height="250"/>
         <image name="btnVideoPage" width="125" height="125"/>
         <image name="imgBG" width="276" height="597"/>
         <image name="imgMain" width="224" height="197.5"/>
