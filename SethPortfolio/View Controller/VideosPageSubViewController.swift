@@ -21,8 +21,8 @@ class VideosPageSubViewController: UIViewController {
         super.viewDidLoad()
         
         getVideo(videoID:myVideoModel.urlArray[passedValue])
-        clientLabel.text = myVideoModel.clientArray[passedValue]
-        txtField.text = "Client: " + myVideoModel.descriptionArray[passedValue]
+        clientLabel.text = "Client: " + myVideoModel.clientArray[passedValue]
+        txtField.text = myVideoModel.descriptionArray[passedValue]
         
     }
 
