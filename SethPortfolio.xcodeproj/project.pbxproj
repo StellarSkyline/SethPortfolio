@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D10039E22497AD600B7F6DA /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D10039722497AD600B7F6DA /* note4.wav */; };
+		5D10039F22497AD600B7F6DA /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D10039822497AD600B7F6DA /* note5.wav */; };
+		5D1003A022497AD600B7F6DA /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D10039922497AD600B7F6DA /* note7.wav */; };
+		5D1003A122497AD600B7F6DA /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D10039A22497AD600B7F6DA /* note6.wav */; };
+		5D1003A222497AD600B7F6DA /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D10039B22497AD600B7F6DA /* note2.wav */; };
+		5D1003A322497AD600B7F6DA /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D10039C22497AD600B7F6DA /* note3.wav */; };
+		5D1003A422497AD600B7F6DA /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5D10039D22497AD600B7F6DA /* note1.wav */; };
 		5D2F4C28223223A8001654C1 /* GraphicsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F4C27223223A8001654C1 /* GraphicsModel.swift */; };
 		5D3911592231CEED001F56C3 /* GraphicsPageSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3911582231CEED001F56C3 /* GraphicsPageSubViewController.swift */; };
 		5D4A6EC02236F9E200964FCB /* AboutPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4A6EBF2236F9E200964FCB /* AboutPageViewController.swift */; };
@@ -19,11 +26,19 @@
 		5D54E97422407D780089B9AE /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D54E97322407D780089B9AE /* VideoModel.swift */; };
 		5DA893082231ACD200F6C740 /* GraphicsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA893072231ACD200F6C740 /* GraphicsPageViewController.swift */; };
 		5DBE8DF7223FDDEB0055BA54 /* VideosPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE8DF6223FDDEB0055BA54 /* VideosPageViewController.swift */; };
+		5DD9232D2249717F00FDA290 /* XylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD9232C2249717F00FDA290 /* XylophoneViewController.swift */; };
 		5DF238EA2249226D00604817 /* AppsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF238E92249226D00604817 /* AppsPageViewController.swift */; };
 		5DF238EC224928AA00604817 /* DiceeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF238EB224928AA00604817 /* DiceeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D10039722497AD600B7F6DA /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		5D10039822497AD600B7F6DA /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		5D10039922497AD600B7F6DA /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		5D10039A22497AD600B7F6DA /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
+		5D10039B22497AD600B7F6DA /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		5D10039C22497AD600B7F6DA /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		5D10039D22497AD600B7F6DA /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
 		5D2F4C27223223A8001654C1 /* GraphicsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsModel.swift; sourceTree = "<group>"; };
 		5D3911582231CEED001F56C3 /* GraphicsPageSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsPageSubViewController.swift; sourceTree = "<group>"; };
 		5D4A6EBF2236F9E200964FCB /* AboutPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPageViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +53,7 @@
 		5D54E97322407D780089B9AE /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		5DA893072231ACD200F6C740 /* GraphicsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsPageViewController.swift; sourceTree = "<group>"; };
 		5DBE8DF6223FDDEB0055BA54 /* VideosPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosPageViewController.swift; sourceTree = "<group>"; };
+		5DD9232C2249717F00FDA290 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		5DF238E92249226D00604817 /* AppsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPageViewController.swift; sourceTree = "<group>"; };
 		5DF238EB224928AA00604817 /* DiceeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +69,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D10039622497AD600B7F6DA /* SoundFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5D10039D22497AD600B7F6DA /* note1.wav */,
+				5D10039B22497AD600B7F6DA /* note2.wav */,
+				5D10039C22497AD600B7F6DA /* note3.wav */,
+				5D10039722497AD600B7F6DA /* note4.wav */,
+				5D10039822497AD600B7F6DA /* note5.wav */,
+				5D10039A22497AD600B7F6DA /* note6.wav */,
+				5D10039922497AD600B7F6DA /* note7.wav */,
+			);
+			path = SoundFiles;
+			sourceTree = "<group>";
+		};
 		5D2F4C29223223C2001654C1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,7 @@
 		5D50FCB3222DF92400D1D3CA /* SethPortfolio */ = {
 			isa = PBXGroup;
 			children = (
+				5D10039622497AD600B7F6DA /* SoundFiles */,
 				5D2F4C29223223C2001654C1 /* Model */,
 				5DA893062231AC7600F6C740 /* View Controller */,
 				5D88620F2240407A00FD81AE /* View */,
@@ -111,6 +142,7 @@
 				5D3911582231CEED001F56C3 /* GraphicsPageSubViewController.swift */,
 				5DBE8DF6223FDDEB0055BA54 /* VideosPageViewController.swift */,
 				5D54E971224077EA0089B9AE /* VideosPageSubViewController.swift */,
+				5DD9232C2249717F00FDA290 /* XylophoneViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -173,9 +205,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D1003A322497AD600B7F6DA /* note3.wav in Resources */,
+				5D1003A022497AD600B7F6DA /* note7.wav in Resources */,
+				5D10039F22497AD600B7F6DA /* note5.wav in Resources */,
 				5D50FCBF222DF92400D1D3CA /* LaunchScreen.storyboard in Resources */,
+				5D1003A122497AD600B7F6DA /* note6.wav in Resources */,
 				5D50FCBC222DF92400D1D3CA /* Assets.xcassets in Resources */,
+				5D1003A222497AD600B7F6DA /* note2.wav in Resources */,
 				5D50FCBA222DF92400D1D3CA /* Main.storyboard in Resources */,
+				5D1003A422497AD600B7F6DA /* note1.wav in Resources */,
+				5D10039E22497AD600B7F6DA /* note4.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +234,7 @@
 				5D2F4C28223223A8001654C1 /* GraphicsModel.swift in Sources */,
 				5DF238EA2249226D00604817 /* AppsPageViewController.swift in Sources */,
 				5DF238EC224928AA00604817 /* DiceeViewController.swift in Sources */,
+				5DD9232D2249717F00FDA290 /* XylophoneViewController.swift in Sources */,
 				5D50FCB5222DF92400D1D3CA /* AppDelegate.swift in Sources */,
 				5DBE8DF7223FDDEB0055BA54 /* VideosPageViewController.swift in Sources */,
 			);

@@ -354,12 +354,21 @@
                                     <action selector="btnNavigation:" destination="YiY-hW-S9g" eventType="touchUpInside" id="cQh-Tm-Vf3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mTj-ei-Dq8">
+                                <rect key="frame" x="148" y="274" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Appsbtn2"/>
+                                <connections>
+                                    <action selector="btnNavigation:" destination="YiY-hW-S9g" eventType="touchUpInside" id="NaP-Wm-d4F"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="H2I-pe-Gt7"/>
                     </view>
                     <connections>
                         <segue destination="9zz-Zc-7ND" kind="show" identifier="jumpDiceePage" id="GF9-WX-dVJ"/>
+                        <segue destination="PO7-zC-gLB" kind="show" identifier="jumpXylophonePage" id="ARV-1H-x1a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xJf-SM-U2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -425,7 +434,98 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ROE-Dj-GEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="795.6521739130435" y="1496.6517857142856"/>
+            <point key="canvasLocation" x="796" y="1471"/>
+        </scene>
+        <!--Xylophone View Controller-->
+        <scene sceneID="vvH-wh-3aI">
+            <objects>
+                <viewController id="PO7-zC-gLB" customClass="XylophoneViewController" customModule="SethPortfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9iC-p8-Lsv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etT-RS-0Rm">
+                                <rect key="frame" x="120" y="44" width="175" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="XylophoneTitle"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKM-B0-YcE">
+                                <rect key="frame" x="20" y="118" width="374" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="BtnNoteKeys:" destination="PO7-zC-gLB" eventType="touchUpInside" id="9BZ-Kz-PG8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiV-k8-zjG">
+                                <rect key="frame" x="23" y="222" width="369" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="BtnNoteKeys:" destination="PO7-zC-gLB" eventType="touchUpInside" id="mDx-3t-5vY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnq-d3-xmJ">
+                                <rect key="frame" x="27" y="324" width="361" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="BtnNoteKeys:" destination="PO7-zC-gLB" eventType="touchUpInside" id="CdN-n3-XAA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maF-Fi-Aef">
+                                <rect key="frame" x="34" y="424" width="347" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="BtnNoteKeys:" destination="PO7-zC-gLB" eventType="touchUpInside" id="nQD-sx-hYy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m65-tG-VeX">
+                                <rect key="frame" x="41" y="520" width="332" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="BtnNoteKeys:" destination="PO7-zC-gLB" eventType="touchUpInside" id="13s-ZU-ZmR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y8a-Jh-0bg">
+                                <rect key="frame" x="53" y="612" width="309" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="BtnNoteKeys:" destination="PO7-zC-gLB" eventType="touchUpInside" id="5eG-bO-9kf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bI7-Aa-dED">
+                                <rect key="frame" x="65" y="698" width="284" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="BtnNoteKeys:" destination="PO7-zC-gLB" eventType="touchUpInside" id="43v-Td-rF8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGP-AS-Sp3">
+                                <rect key="frame" x="174" y="788" width="74" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="BtnDismiss:" destination="PO7-zC-gLB" eventType="touchUpInside" id="Zil-oW-kIV"/>
+                                    <action selector="btnDismiss:" destination="9zz-Zc-7ND" eventType="touchUpInside" id="J0C-ig-Par"/>
+                                    <action selector="btnDismiss:" destination="YiY-hW-S9g" eventType="touchUpInside" id="fr7-A3-PHU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="7xC-DU-Vli"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GBE-fb-2At" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1496" y="1471"/>
         </scene>
         <!--Graphics Page View Controller-->
         <scene sceneID="IN7-dM-ZMv">
@@ -628,8 +728,10 @@
         <image name="AppsPageBG" width="207" height="448"/>
         <image name="AppsTitle" width="350" height="150"/>
         <image name="Appsbtn1" width="250" height="250"/>
+        <image name="Appsbtn2" width="250" height="250"/>
         <image name="GraphicDesignPageBG" width="207" height="448"/>
         <image name="VideosPageBG" width="207" height="448"/>
+        <image name="XylophoneTitle" width="175" height="75"/>
         <image name="btnAboutPage" width="125" height="125"/>
         <image name="btnAppPage" width="125" height="125"/>
         <image name="btnArt1" width="250" height="250"/>

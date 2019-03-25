@@ -20,8 +20,10 @@ class AppsPageViewController: UIViewController {
         switch (sender.tag) {
         case 1:
             performSegue(withIdentifier: "jumpDiceePage", sender: self)
+        case 2:
+            performSegue(withIdentifier: "jumpXylophonePage", sender: self)
         default:
-            print("no World")
+            print("No Tag")
             
         }
     }
