@@ -19,6 +19,8 @@
 		5D54E97422407D780089B9AE /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D54E97322407D780089B9AE /* VideoModel.swift */; };
 		5DA893082231ACD200F6C740 /* GraphicsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA893072231ACD200F6C740 /* GraphicsPageViewController.swift */; };
 		5DBE8DF7223FDDEB0055BA54 /* VideosPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBE8DF6223FDDEB0055BA54 /* VideosPageViewController.swift */; };
+		5DF238EA2249226D00604817 /* AppsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF238E92249226D00604817 /* AppsPageViewController.swift */; };
+		5DF238EC224928AA00604817 /* DiceeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF238EB224928AA00604817 /* DiceeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		5D54E97322407D780089B9AE /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		5DA893072231ACD200F6C740 /* GraphicsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsPageViewController.swift; sourceTree = "<group>"; };
 		5DBE8DF6223FDDEB0055BA54 /* VideosPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosPageViewController.swift; sourceTree = "<group>"; };
+		5DF238E92249226D00604817 /* AppsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPageViewController.swift; sourceTree = "<group>"; };
+		5DF238EB224928AA00604817 /* DiceeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		5DA893062231AC7600F6C740 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5DF238E92249226D00604817 /* AppsPageViewController.swift */,
+				5DF238EB224928AA00604817 /* DiceeViewController.swift */,
 				5D50FCB6222DF92400D1D3CA /* ViewController.swift */,
 				5D4A6EBF2236F9E200964FCB /* AboutPageViewController.swift */,
 				5DA893072231ACD200F6C740 /* GraphicsPageViewController.swift */,
@@ -187,6 +193,8 @@
 				5D54E97422407D780089B9AE /* VideoModel.swift in Sources */,
 				5D54E972224077EA0089B9AE /* VideosPageSubViewController.swift in Sources */,
 				5D2F4C28223223A8001654C1 /* GraphicsModel.swift in Sources */,
+				5DF238EA2249226D00604817 /* AppsPageViewController.swift in Sources */,
+				5DF238EC224928AA00604817 /* DiceeViewController.swift in Sources */,
 				5D50FCB5222DF92400D1D3CA /* AppDelegate.swift in Sources */,
 				5DBE8DF7223FDDEB0055BA54 /* VideosPageViewController.swift in Sources */,
 			);

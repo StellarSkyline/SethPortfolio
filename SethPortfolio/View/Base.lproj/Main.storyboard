@@ -235,6 +235,7 @@
                         <segue destination="5gt-tX-74N" kind="show" identifier="jumpGraphicsPage" id="klr-Tq-bag"/>
                         <segue destination="eIp-ly-SaP" kind="show" identifier="jumpAboutPage" id="GUf-LD-NMI"/>
                         <segue destination="dQm-cb-gnc" kind="show" identifier="jumpVideoPage" id="LE1-C0-0Bk"/>
+                        <segue destination="YiY-hW-S9g" kind="show" identifier="jumpAppsPage" id="5yt-Fj-Bkm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -313,6 +314,118 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dDB-03-MIH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="48" y="748"/>
+        </scene>
+        <!--Apps Page View Controller-->
+        <scene sceneID="guR-h9-tn3">
+            <objects>
+                <viewController id="YiY-hW-S9g" customClass="AppsPageViewController" customModule="SethPortfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zzk-aQ-i0E">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppsPageBG" translatesAutoresizingMaskIntoConstraints="NO" id="6Nb-Cc-eN1">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="903"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppsTitle" translatesAutoresizingMaskIntoConstraints="NO" id="qsO-NW-eNr">
+                                <rect key="frame" x="61" y="106" width="293" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="btnAppPage" translatesAutoresizingMaskIntoConstraints="NO" id="9N4-J2-WdH">
+                                <rect key="frame" x="167" y="48" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I06-YX-bsw">
+                                <rect key="frame" x="174" y="788" width="74" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDismiss:" destination="YiY-hW-S9g" eventType="touchUpInside" id="deM-hw-W2n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e59-01-5MA">
+                                <rect key="frame" x="30" y="274" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Appsbtn1"/>
+                                <connections>
+                                    <action selector="btnNavigation:" destination="YiY-hW-S9g" eventType="touchUpInside" id="cQh-Tm-Vf3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="H2I-pe-Gt7"/>
+                    </view>
+                    <connections>
+                        <segue destination="9zz-Zc-7ND" kind="show" identifier="jumpDiceePage" id="GF9-WX-dVJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xJf-SM-U2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="795.6521739130435" y="747.99107142857144"/>
+        </scene>
+        <!--Dicee View Controller-->
+        <scene sceneID="84j-wB-jX9">
+            <objects>
+                <viewController id="9zz-Zc-7ND" customClass="DiceeViewController" customModule="SethPortfolio" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FgL-Ot-iIj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newbackground" translatesAutoresizingMaskIntoConstraints="NO" id="LbZ-ne-swD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="Pza-uQ-g3T">
+                                <rect key="frame" x="67" y="87" width="280" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="5iD-Cm-Xre">
+                                <rect key="frame" x="34" y="327" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dice1" translatesAutoresizingMaskIntoConstraints="NO" id="8Hh-6c-VwV">
+                                <rect key="frame" x="231" y="327" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQl-2j-96H">
+                                <rect key="frame" x="122" y="632" width="170" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                <state key="normal" title="Roll">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnRoll:" destination="9zz-Zc-7ND" eventType="touchUpInside" id="Hi3-l7-rEE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r3H-Ls-x9B">
+                                <rect key="frame" x="174" y="788" width="74" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDismiss:" destination="YiY-hW-S9g" eventType="touchUpInside" id="Xgf-nn-Zk5"/>
+                                    <action selector="btnDismiss:" destination="9zz-Zc-7ND" eventType="touchUpInside" id="fD0-kv-fBW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Wpg-HI-710"/>
+                    </view>
+                    <connections>
+                        <outlet property="UIDice1" destination="5iD-Cm-Xre" id="FP1-VH-u8A"/>
+                        <outlet property="UIDice2" destination="8Hh-6c-VwV" id="GB6-4O-Jdm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ROE-Dj-GEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="795.6521739130435" y="1496.6517857142856"/>
         </scene>
         <!--Graphics Page View Controller-->
         <scene sceneID="IN7-dM-ZMv">
@@ -512,6 +625,9 @@
     <resources>
         <image name="AboutArt" width="250" height="250"/>
         <image name="AboutBG" width="207" height="448"/>
+        <image name="AppsPageBG" width="207" height="448"/>
+        <image name="AppsTitle" width="350" height="150"/>
+        <image name="Appsbtn1" width="250" height="250"/>
         <image name="GraphicDesignPageBG" width="207" height="448"/>
         <image name="VideosPageBG" width="207" height="448"/>
         <image name="btnAboutPage" width="125" height="125"/>
@@ -537,10 +653,13 @@
         <image name="btnVideo6" width="250" height="250"/>
         <image name="btnVideo7" width="250" height="250"/>
         <image name="btnVideoPage" width="125" height="125"/>
+        <image name="dice1" width="100" height="100"/>
+        <image name="diceeLogo" width="196" height="128"/>
         <image name="imgBG" width="276" height="597"/>
         <image name="imgMain" width="224" height="197.5"/>
         <image name="imgNameMain" width="175" height="75"/>
         <image name="imgTitleGraphic" width="170.5" height="62"/>
         <image name="imgVideoTitle" width="229.5" height="75"/>
+        <image name="newbackground" width="444.5" height="414"/>
     </resources>
 </document>

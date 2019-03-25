@@ -22,6 +22,8 @@ class ViewController: UIViewController {
         switch (sender.tag) {
         case 1 :
             performSegue(withIdentifier: "jumpGraphicsPage", sender: self)
+        case 2:
+            performSegue(withIdentifier: "jumpAppsPage", sender: self)
         case 3:
             performSegue(withIdentifier: "jumpVideoPage", sender: self)
         case 4:
