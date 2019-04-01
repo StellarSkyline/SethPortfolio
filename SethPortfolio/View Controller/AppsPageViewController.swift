@@ -22,6 +22,8 @@ class AppsPageViewController: UIViewController {
             performSegue(withIdentifier: "jumpDiceePage", sender: self)
         case 2:
             performSegue(withIdentifier: "jumpXylophonePage", sender: self)
+        case 3:
+            performSegue(withIdentifier: "jumpGuessTheNumberPage", sender: self)
         default:
             print("No Tag")
             
