@@ -443,7 +443,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ROE-Dj-GEj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="796" y="1483"/>
+            <point key="canvasLocation" x="796" y="1469"/>
         </scene>
         <!--Xylophone View Controller-->
         <scene sceneID="vvH-wh-3aI">
@@ -534,7 +534,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GBE-fb-2At" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1551" y="1469"/>
+            <point key="canvasLocation" x="1551" y="1473"/>
         </scene>
         <!--Guess The Number View Controller-->
         <scene sceneID="6RO-SW-N1p">

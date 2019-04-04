@@ -59,7 +59,7 @@
 		5DBE8DF6223FDDEB0055BA54 /* VideosPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosPageViewController.swift; sourceTree = "<group>"; };
 		5DD9232C2249717F00FDA290 /* XylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewController.swift; sourceTree = "<group>"; };
 		5DDC68F82251583D000E06C3 /* GuessTheNumberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberModel.swift; sourceTree = "<group>"; };
-		5DDC68FA225165BA000E06C3 /* GuessTheNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GuessTheNumberViewController.swift; path = ../../GuessTheNumberViewController.swift; sourceTree = "<group>"; };
+		5DDC68FA225165BA000E06C3 /* GuessTheNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberViewController.swift; sourceTree = "<group>"; };
 		5DDC68FD22517FEE000E06C3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		5DDC68FF22518038000E06C3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		5DF238E92249226D00604817 /* AppsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPageViewController.swift; sourceTree = "<group>"; };
