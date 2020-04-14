@@ -10,9 +10,10 @@ SethPortfolio Folder is the assets folder that has all the swift files class fil
 I organized the project in a Model View Controller pattern. Model folder holds all data used in the View-Controllers, View Controller contains all code associated with the user view.
 
 Project can only be run with:
-Mac OS Mojave
+Latest Version of macOS
 Latest version of Xcode.
 
-iPhone XR portrait layout
-
 Please see swift files for the source code.
+
+04/14/2020 - Updated for iPhone 11 Pro layout
+04/14/2020 - Added Sketch file for UI/UX Mockup
